@@ -1,7 +1,8 @@
+
 class Ball {
   //An Object Is
-  float X, y, diameter;
+  float x, y, diameter;
   color colour;
   float xSpeed = 1;
   float ySpeed = 1;
-}//End of Ball Class
+} //End of Ball Class
