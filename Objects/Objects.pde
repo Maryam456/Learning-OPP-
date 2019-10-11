@@ -20,9 +20,7 @@ void draw() {
   //Arithmetic First ... two sections
 
   //Next Step of Ball
-  myPongBall.x += myPongBall.xSpeed;
-  myPongBall.y += myPongBall.ySpeed;
-
+ 
   //Collision with Canvas Boundaries
   if ( myPongBall.y < 0*height || myPongBall.y + myPongBall.diameter/2 > height ) {
     myPongBall.x *= -1;
